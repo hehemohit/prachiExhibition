@@ -1,26 +1,263 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #121212;
+  --foreground: #EDEDEA;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --font-serif: var(--font-eb-garamond), "EB Garamond", Georgia, serif;
+  --font-sans: var(--font-hanken-grotesk), "Hanken Grotesk", system-ui, sans-serif;
+
+  --color-surface: #121212;
+  --color-surface-subtle: #181817;
+  --color-surface-card: #1E1D1B;
+  --color-surface-elevated: #252422;
+  --color-stone-light: #F7F5F0;
+  --color-stone-muted: #9D9A93;
+  --color-sand: #C5B8A5;
+  --color-champagne: #DDD3C4;
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+  --color-border-fine: rgba(255, 255, 255, 0.14);
+  --color-border-sand: rgba(197, 184, 165, 0.35);
+
+  --letter-spacing-widest2: 0.22em;
+  --letter-spacing-widest3: 0.3em;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── SMOOTH SCROLL & BASE ───────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e2c29;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5B8A5;
+}
+
+/* Text selection */
+::selection {
+  background: #C5B8A5;
+  color: #121212;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #121212;
+  color: #EDEDEA;
+  overflow-x: hidden;
+}
+
+/* ─── KEYFRAMES ──────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes kenBurns {
+  0%   { transform: scale(1); }
+  100% { transform: scale(1.06); }
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes borderPulse {
+  0%   { border-left-color: rgba(255, 255, 255, 0.08); }
+  50%  { border-left-color: #C5B8A5; }
+  100% { border-left-color: rgba(255, 255, 255, 0.08); }
+}
+
+@keyframes successPop {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ─── MARQUEE TICKER ─────────────────────────────────────────── */
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+}
+
+.marquee-track {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marquee 35s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ─── SCROLL REVEAL SYSTEM ───────────────────────────────────── */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+[data-reveal="left"] {
+  transform: translateX(-32px);
+}
+
+[data-reveal="right"] {
+  transform: translateX(32px);
+}
+
+[data-reveal="fade"] {
+  transform: none;
+}
+
+[data-reveal="scale"] {
+  transform: scale(0.96);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Stagger delay classes */
+.delay-75  { transition-delay: 75ms; }
+.delay-100 { transition-delay: 100ms; }
+.delay-150 { transition-delay: 150ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-250 { transition-delay: 250ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+.delay-500 { transition-delay: 500ms; }
+.delay-600 { transition-delay: 600ms; }
+.delay-700 { transition-delay: 700ms; }
+
+/* ─── KEN BURNS EFFECT ───────────────────────────────────────── */
+.ken-burns {
+  animation: kenBurns 16s ease-in-out infinite alternate;
+}
+
+/* ─── BORDER DRAW REVEAL ─────────────────────────────────────── */
+.border-draw {
+  position: relative;
+}
+
+.border-draw::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.12);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.border-draw.is-visible::before {
+  transform: scaleX(1);
+}
+
+/* ─── SHIMMER BUTTON ─────────────────────────────────────────── */
+.shimmer-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.shimmer-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.22) 50%,
+    transparent 65%
+  );
+  background-size: 200% 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.shimmer-btn:hover::after {
+  opacity: 1;
+  animation: shimmer 1s ease forwards;
+}
+
+/* ─── PROCESS STAGE BORDER PULSE ─────────────────────────────── */
+.stage-card {
+  transition: border-color 0.4s ease;
+}
+
+.stage-card.is-visible {
+  animation: borderPulse 1.4s ease-out forwards;
+}
+
+/* ─── SUCCESS POP ────────────────────────────────────────────── */
+.success-pop {
+  animation: successPop 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ─── FORM GLOW ──────────────────────────────────────────────── */
+.input-glow:focus {
+  box-shadow: 0 0 0 1px rgba(197, 184, 165, 0.4);
+  border-color: #C5B8A5 !important;
+}
+
+/* ─── HEADER SHRINK ──────────────────────────────────────────── */
+.header-transition {
+  transition: height 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              background-color 0.35s ease,
+              border-color 0.35s ease,
+              box-shadow 0.35s ease;
+}
+
+/* ─── REDUCED MOTION ACCESSIBILITY ───────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  [data-reveal],
+  .ken-burns,
+  .marquee-track,
+  .border-draw::before,
+  .shimmer-btn::after,
+  .stage-card,
+  .success-pop {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }

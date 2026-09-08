@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Prachi World Exhibition Organizing | Spatial Architecture &amp; Bespoke Pavilions</title>
+<!-- Editorial Fonts: EB Garamond & Hanken Grotesk -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=Hanken+Grotesk:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..400,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            surface: "#121212",
+            "surface-subtle": "#181817",
+            "surface-card": "#1E1D1B",
+            "surface-elevated": "#252422",
+            "stone-light": "#F7F5F0",
+            "stone-muted": "#9D9A93",
+            "sand": "#C5B8A5",
+            "champagne": "#DDD3C4",
+            "border-subtle": "rgba(255, 255, 255, 0.08)",
+            "border-fine": "rgba(255, 255, 255, 0.14)",
+            "border-sand": "rgba(197, 184, 165, 0.35)",
+            background: "#121212",
+            "on-background": "#EDEDEA",
+            "on-surface-variant": "#9D9A93"
+          },
+          fontFamily: {
+            serif: ["EB Garamond", "serif"],
+            sans: ["Hanken Grotesk", "sans-serif"]
+          },
+          letterSpacing: {
+            widest2: "0.22em",
+            widest3: "0.3em"
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    html {
+      scroll-behavior: smooth;
+    }
+    ::selection {
+      background: #C5B8A5;
+      color: #121212;
+    }
+  </style>
+</head>
+<body class="bg-[#121212] text-[#EDEDEA] font-sans antialiased selection:bg-sand selection:text-surface">
+<!-- TOP RESTRAINED DISPATCH TICKER -->
+<div class="w-full border-b border-border-subtle text-stone-muted text-[11px] font-sans tracking-widest uppercase py-2.5 px-6 lg:px-16">
+<div class="max-w-[1400px] mx-auto flex flex-wrap items-center justify-between gap-4">
+<div class="flex items-center space-x-6">
+<span class="flex items-center gap-2 text-stone-light">
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-sand"></span>
+<span>Dubai Studio: +971 0585047305</span>
+</span>
+<span class="hidden md:inline text-stone-muted/40">/</span>
+<span class="hidden md:inline text-stone-muted">+971 529783732</span>
+<span class="hidden lg:inline text-stone-muted/40">/</span>
+<span class="hidden lg:inline text-stone-muted">India Atelier: +91 8003959949</span>
+</div>
+<div class="flex items-center space-x-6 text-[11px]">
+<a class="hover:text-champagne transition-colors duration-200" href="mailto:bkccdubai@gmail.com">bkccdubai@gmail.com</a>
+<span class="hidden sm:inline text-stone-muted/40">•</span>
+<span class="hidden sm:inline text-stone-muted">Emarat Atrium, Al Wasl, Dubai</span>
+</div>
+</div>
+</div>
+<!-- ARCHITECTURAL ATELIER HEADER -->
+<header class="bg-[#121212]/90 backdrop-blur-md sticky top-0 z-50 border-b border-border-subtle">
+<div class="max-w-[1400px] mx-auto px-6 lg:px-16 flex items-center justify-between h-24">
+<!-- Brand Wordmark -->
+<a class="flex flex-col group" href="#">
+<span class="font-serif text-2xl tracking-[0.2em] uppercase font-normal text-stone-light group-hover:text-champagne transition-colors">
+        PRACHI WORLD
+      </span>
+<span class="text-[9px] tracking-widest2 uppercase text-stone-muted font-light mt-1">
+        Exhibition Organizing • Dubai &amp; India
+      </span>
+</a>
+<!-- Clean Minimal Nav -->
+<nav class="hidden lg:flex items-center space-x-10 text-[11px] uppercase tracking-widest font-normal text-stone-muted">
+<a class="hover:text-stone-light transition-colors duration-200" href="#work">Selected Works</a>
+<a class="hover:text-stone-light transition-colors duration-200" href="#capabilities">Capabilities</a>
+<a class="hover:text-stone-light transition-colors duration-200" href="#process">Process</a>
+<a class="hover:text-stone-light transition-colors duration-200" href="#hubs">Global Hubs</a>
+<a class="hover:text-stone-light transition-colors duration-200" href="#inquiry">Inquiries</a>
+</nav>
+<!-- Minimal Direct Action -->
+<div class="flex items-center gap-4">
+<a class="hidden sm:inline-flex items-center gap-2 px-4 py-2 border border-border-subtle text-[11px] uppercase tracking-widest text-stone-muted hover:text-stone-light hover:border-sand transition-all duration-300" href="https://wa.me/971529783732" target="_blank">
+<span>Direct Desk</span>
+</a>
+<a class="px-5 py-2.5 bg-stone-light text-[#121212] text-[11px] uppercase tracking-widest font-medium hover:bg-champagne transition-colors duration-300" href="#inquiry">
+        Request Consultation
+      </a>
+</div>
+</div>
+</header>
+<!-- EDITORIAL HERO SECTION -->
+<section class="relative pt-20 pb-24 lg:pt-28 lg:pb-36 border-b border-border-subtle">
+<div class="max-w-[1400px] mx-auto px-6 lg:px-16">
+<!-- Subtle Pre-Title -->
+<div class="flex items-center gap-4 mb-8">
+<span class="text-[10px] tracking-widest3 uppercase text-sand font-medium">Bespoke Spatial Architecture</span>
+<span class="h-px w-12 bg-border-subtle"></span>
+<span class="text-[10px] tracking-widest uppercase text-stone-muted hidden sm:inline">DWTC • ADNEC • Riyadh Front Official Partner</span>
+</div>
+<!-- Two-Column Editorial Hero Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+<!-- Left: Confident Headline & Philosophy -->
+<div class="lg:col-span-7 space-y-8">
+<h1 class="font-serif text-4xl sm:text-5xl lg:text-[68px] leading-[1.08] font-normal tracking-[-0.01em] text-stone-light">
+          Spatial Architecture &amp; Bespoke Exhibition Pavilions
+        </h1>
+<p class="font-sans font-light text-stone-muted text-base lg:text-lg leading-relaxed max-w-xl">
+          We conceive, fabricate, and install turnkey environments for discerning international brands across Dubai World Trade Centre, Abu Dhabi, and Saudi Arabia.
+        </p>
+<div class="flex flex-wrap items-center gap-6 pt-2">
+<a class="px-7 py-3.5 bg-stone-light text-[#121212] text-xs uppercase tracking-widest hover:bg-champagne transition-all duration-300 inline-flex items-center gap-3" href="#work">
+<span>View Selected Commissions</span>
+<span class="text-xs">→</span>
+</a>
+<a class="px-7 py-3.5 border border-border-subtle text-stone-light text-xs uppercase tracking-widest hover:border-sand hover:text-champagne transition-all duration-300 inline-flex items-center gap-2" href="#inquiry">
+<span>Submit Exhibition Brief</span>
+</a>
+</div>
+<!-- Quiet Venues Index -->
+<div class="pt-10 border-t border-border-subtle mt-10">
+<p class="text-[10px] tracking-widest2 uppercase text-stone-muted mb-4">Accredited Venues &amp; Summits</p>
+<div class="flex flex-wrap gap-x-6 gap-y-2 text-xs font-light text-stone-muted">
+<span class="text-stone-light/90">GITEX Global</span>
+<span>•</span>
+<span class="text-stone-light/90">Arab Health</span>
+<span>•</span>
+<span class="text-stone-light/90">ADIPEC Abu Dhabi</span>
+<span>•</span>
+<span class="text-stone-light/90">Gulfood</span>
+<span>•</span>
+<span class="text-stone-light/90">LEAP Riyadh</span>
+<span>•</span>
+<span class="text-stone-light/90">The Big 5</span>
+</div>
+</div>
+</div>
+<!-- Right: Architectural Curated Showcase Frame -->
+<div class="lg:col-span-5">
+<div class="border border-border-fine bg-surface-subtle p-2">
+<div class="aspect-[4/3] relative overflow-hidden bg-[#161616]">
+<img alt="Architectural exhibition stand design with warm interior illumination" class="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHul7UI2Mo4KVT9SyXuthpOWZIFPO3natZN66KAUYiZWE9_ulP_B8s6kYmYQ5ZI5NHlzyoSiESnJ_xw-BowioSycuXGdnUNYM8QTefxoGJAfHh5Z5xwtI68KX1zXt1AYDIUw-1njdWiEpKiWYTWg13gxnF1r0dersPPo_lT2pgVcnizEj2s3fJurAGaWLAtg5mYSUVODO6r96MQKm1Ugamx_fpd5QGz37sJHdbcnzp5yUXOCT6DEtwxQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#121212]/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 flex justify-between items-end text-xs">
+<div>
+<span class="text-[9px] tracking-widest uppercase text-sand block">Commission 2024</span>
+<span class="font-serif text-base text-stone-light">Quantum Pavilion, GITEX</span>
+</div>
+<span class="text-[10px] tracking-widest text-stone-muted uppercase font-mono">216 m² Island</span>
+</div>
+</div>
+<div class="py-3 px-2 flex items-center justify-between text-[11px] text-stone-muted border-t border-border-subtle mt-2">
+<span>Dubai World Trade Centre</span>
+<span>Turnkey Fabrication</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Key Performance Metrics (Subtle, Quiet Typography) -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-8 pt-16 mt-16 border-t border-border-subtle">
+<div>
+<span class="font-serif text-3xl lg:text-4xl text-stone-light block font-normal">850+</span>
+<span class="text-[10px] tracking-widest uppercase text-stone-muted block mt-1">Commissions Delivered</span>
+</div>
+<div>
+<span class="font-serif text-3xl lg:text-4xl text-stone-light block font-normal">15 Yrs</span>
+<span class="text-[10px] tracking-widest uppercase text-stone-muted block mt-1">International Practice</span>
+</div>
+<div>
+<span class="font-serif text-3xl lg:text-4xl text-stone-light block font-normal">100%</span>
+<span class="text-[10px] tracking-widest uppercase text-stone-muted block mt-1">In-House Workshops (UAE &amp; India)</span>
+</div>
+<div>
+<span class="font-serif text-3xl lg:text-4xl text-stone-light block font-normal">24h Early</span>
+<span class="text-[10px] tracking-widest uppercase text-stone-muted block mt-1">Guaranteed Handover Pre-Show</span>
+</div>
+</div>
+</div>
+</section>
+<!-- CURATED WORKS / PORTFOLIO -->
+<section class="py-24 lg:py-32 border-b border-border-subtle bg-[#121212]" id="work">
+<div class="max-w-[1400px] mx-auto px-6 lg:px-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<span class="text-[10px] tracking-widest3 uppercase text-sand block mb-2">Portfolio of Work</span>
+<h2 class="font-serif text-3xl lg:text-4xl font-normal text-stone-light">
+          Selected Exhibition Pavilions
+        </h2>
+</div>
+<div class="flex flex-wrap gap-2 text-[11px] tracking-widest uppercase text-stone-muted">
+<span class="text-stone-light border-b border-sand pb-1 cursor-pointer">All Projects</span>
+<span class="mx-3 text-border-subtle">/</span>
+<span class="hover:text-stone-light transition-colors cursor-pointer">Multi-Tier &amp; Mezzanines</span>
+<span class="mx-3 text-border-subtle">/</span>
+<span class="hover:text-stone-light transition-colors cursor-pointer">Custom Joinery</span>
+<span class="mx-3 text-border-subtle">/</span>
+<span class="hover:text-stone-light transition-colors cursor-pointer">Country Pavilions</span>
+</div>
+</div>
+<!-- Editorial Architectural Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+<!-- Commission 1 (7 cols) -->
+<div class="lg:col-span-7 flex flex-col justify-between group">
+<div class="overflow-hidden border border-border-subtle bg-surface-subtle">
+<div class="aspect-[16/10] overflow-hidden">
+<img alt="Double-decker medical technology trade stand at Arab Health" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmcaA9B3kDDtgOkofuwmQCiA6pxKkkG1rZUrRvtLM4NyM8mKv660_wphAk2JouXALmk9wP1LK-ZUE3CwSAeK8FCd5LKf4AyyFSrrdPLAtgQj6xnFDwo9BongYON7-mZ9vERClFrAn9tvKYIYtkytGCzGGZiT7eXKp7SX7lr8l7LsVTynd0l1q4nUS3JRf2OJdGiNTsY5Kav-E4z3JIeJr5vuU6YRBEWGDVVBSRhnNkqecjptA2IdE2-g"/>
+</div>
+</div>
+<div class="pt-6">
+<div class="flex items-center justify-between text-[11px] text-stone-muted uppercase tracking-widest mb-2">
+<span>Arab Health • Sheikh Saeed Hall</span>
+<span>360 m² Double Decker</span>
+</div>
+<h3 class="font-serif text-2xl font-normal text-stone-light group-hover:text-sand transition-colors">
+            BioMed Global Multi-Tier Pavilion
+          </h3>
+<p class="font-sans font-light text-sm text-stone-muted mt-2 leading-relaxed max-w-xl">
+            Engineered structural steel mezzanine, soundproof executive negotiation suites, and integrated 360-degree cylindrical LED stage.
+          </p>
+</div>
+</div>
+<!-- Commission 2 (5 cols) -->
+<div class="lg:col-span-5 flex flex-col justify-between group">
+<div class="overflow-hidden border border-border-subtle bg-surface-subtle">
+<div class="aspect-[16/11] overflow-hidden">
+<img alt="Futuristic curved cybersecurity exhibition stand at GITEX" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCy0-oHJ3vYBR7Lyqqyea46eZbYI7_qIBPvFzoLd9pxv6dr96snT2O6u2UwGls-cyypNAm9WgxnAb4qFayK2Lm2sZlv21iFRb4hirJe9HjDSV1a8u2T_PSJK7UeW57TAk1tnpF0hTXPYEY-VF1vnF6nqIZfT1a1dJbDCjYU_bB3uUtw9ofZk2C8duZizKkSn4CMuLlVqjKRQ0lAYLa3-SIpjLWKwE_LXlPoo1zXbP0V8J_SxNwuKi5QUQ"/>
+</div>
+</div>
+<div class="pt-6">
+<div class="flex items-center justify-between text-[11px] text-stone-muted uppercase tracking-widest mb-2">
+<span>GITEX Global • DWTC Za'abeel</span>
+<span>108 m² Island</span>
+</div>
+<h3 class="font-serif text-2xl font-normal text-stone-light group-hover:text-sand transition-colors">
+            CyberFortress Architectural Nexus
+          </h3>
+<p class="font-sans font-light text-sm text-stone-muted mt-2 leading-relaxed">
+            Thermoformed Corian reception consoles, suspended overhead kinetic truss, and private acoustic consultation chambers.
+          </p>
+</div>
+</div>
+<!-- Commission 3 (5 cols) -->
+<div class="lg:col-span-5 flex flex-col justify-between group">
+<div class="overflow-hidden border border-border-subtle bg-surface-subtle">
+<div class="aspect-[16/11] overflow-hidden">
+<img alt="Heavy industrial oil and gas trade show pavilion at ADIPEC" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhPQK-zmxiqmDOcWqM1N9YBS8nwKoJMwdDCIVpqLh3s7OAndTDKnMnnqQ8eJpaBS1R0CHF0A2cwkmMF_SWC8sd1_b2VHq9My-878z0V1O84WKszn4EZJJRjk4Flzb7gaUhWDTbpqe4lOrOM96KDV5MT35ZyMMy6VwdZLkVOwcZweuhgmiULfF_kJNXXwuJvXZjt2LTGlLEsHVz9FrsqF3_WoChDfc6lFDf78d1Ef2scWfr8qA3ZORCow"/>
+</div>
+</div>
+<div class="pt-6">
+<div class="flex items-center justify-between text-[11px] text-stone-muted uppercase tracking-widest mb-2">
+<span>ADIPEC Abu Dhabi • ADNEC</span>
+<span>150 m² Corner</span>
+</div>
+<h3 class="font-serif text-2xl font-normal text-stone-light group-hover:text-sand transition-colors">
+            PetroGlobal Industrial Hub
+          </h3>
+<p class="font-sans font-light text-sm text-stone-muted mt-2 leading-relaxed">
+            Heavy-duty reinforced floor loadings (1,500 kg/m²) custom designed to display functional turbine valve assemblies and heavy equipment.
+          </p>
+</div>
+</div>
+<!-- Commission 4 (7 cols) -->
+<div class="lg:col-span-7 flex flex-col justify-between group">
+<div class="overflow-hidden border border-border-subtle bg-surface-subtle">
+<div class="aspect-[16/10] overflow-hidden">
+<img alt="Luxury food and beverage brand pavilion at Gulfood" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWzJKengEmfxCn4rIfE0TBMk1SBUgkUcuYih0m2Zd_krJZtqkI_NklbU3nS6DlSrcq-21QNb_hFwY9kXCKSc5-7-6Fk4vYqCaPraLMfIIKI6qJY3eFeegfCkEB_43oFFbupzueSm72oLoR9EYXpYsOyTBrfL4trnPInP6SPG9z3LzveFygueULBps4I2iCMXnKkdrcwNOC_yYafV6ffVJh8fMMHLt3RiuWo4m9JnhsX9i5TsXNMv_tCQ"/>
+</div>
+</div>
+<div class="pt-6">
+<div class="flex items-center justify-between text-[11px] text-stone-muted uppercase tracking-widest mb-2">
+<span>Gulfood Dubai • DWTC Hall 2</span>
+<span>200 m² Peninsula</span>
+</div>
+<h3 class="font-serif text-2xl font-normal text-stone-light group-hover:text-sand transition-colors">
+            Al-Zahra Gourmet International Pavilion
+          </h3>
+<p class="font-sans font-light text-sm text-stone-muted mt-2 leading-relaxed max-w-xl">
+            Commercial-grade live preparation suites certified with Dubai Civil Defense and Municipality, finished with honed travertine and brass detailing.
+          </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CAPABILITIES & CRAFTSMANSHIP -->
+<section class="py-24 lg:py-32 border-b border-border-subtle bg-[#141413]" id="capabilities">
+<div class="max-w-[1400px] mx-auto px-6 lg:px-16">
+<div class="max-w-2xl mb-16">
+<span class="text-[10px] tracking-widest3 uppercase text-sand block mb-2">Atelier Capabilities</span>
+<h2 class="font-serif text-3xl lg:text-4xl font-normal text-stone-light">
+        Comprehensive In-House Exhibition Practice
+      </h2>
+<p class="font-sans font-light text-stone-muted text-base mt-3 leading-relaxed">
+        We eliminate contractor intermediaries. Everything is engineered and fabricated within our dedicated Dubai and India facilities.
+      </p>
+</div>
+<!-- 4 Clean Columns -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Cap 1 -->
+<div class="border-t border-border-subtle pt-8">
+<span class="font-serif text-sm text-sand mb-3 block">01</span>
+<h3 class="font-serif text-xl font-normal text-stone-light mb-3">Bespoke 3D Stand Architecture</h3>
+<p class="font-sans font-light text-stone-muted text-xs leading-relaxed">
+          Photorealistic spatial renders, structural engineering assessments, traffic flow planning, and DWTC authority-compliant CAD filings.
+        </p>
+<ul class="mt-6 space-y-2 text-[11px] text-stone-muted/80 font-light">
+<li>— 48h Concept Delivery</li>
+<li>— Structural Load Calculations</li>
+<li>— Interactive VR Previews</li>
+</ul>
+</div>
+<!-- Cap 2 -->
+<div class="border-t border-border-subtle pt-8">
+<span class="font-serif text-sm text-sand mb-3 block">02</span>
+<h3 class="font-serif text-xl font-normal text-stone-light mb-3">Precision Joinery &amp; Metalwork</h3>
+<p class="font-sans font-light text-stone-muted text-xs leading-relaxed">
+          In-house 5-axis CNC routing, luxury wood veneers, polyurethane lacquer finishing, and structural double-decker steel frame engineering.
+        </p>
+<ul class="mt-6 space-y-2 text-[11px] text-stone-muted/80 font-light">
+<li>— 25,000 sq.ft Production Studio</li>
+<li>— Architectural Carpentry</li>
+<li>— Double-Decker Steel Framework</li>
+</ul>
+</div>
+<!-- Cap 3 -->
+<div class="border-t border-border-subtle pt-8">
+<span class="font-serif text-sm text-sand mb-3 block">03</span>
+<h3 class="font-serif text-xl font-normal text-stone-light mb-3">Integrated Lighting &amp; AV</h3>
+<p class="font-sans font-light text-stone-muted text-xs leading-relaxed">
+          Seamless curved fine-pitch LED screens (P1.9 / P2.5), architectural museum-grade lighting trusses, and interactive digital touch consoles.
+        </p>
+<ul class="mt-6 space-y-2 text-[11px] text-stone-muted/80 font-light">
+<li>— Curved Video Wall Solutions</li>
+<li>— Calibrated 3000K Warm Lighting</li>
+<li>— Dedicated On-Site AV Engineers</li>
+</ul>
+</div>
+<!-- Cap 4 -->
+<div class="border-t border-border-subtle pt-8">
+<span class="font-serif text-sm text-sand mb-3 block">04</span>
+<h3 class="font-serif text-xl font-normal text-stone-light mb-3">Turnkey Approvals &amp; Handover</h3>
+<p class="font-sans font-light text-stone-muted text-xs leading-relaxed">
+          Full venue registrations, Civil Defense sign-offs, utilities connections, on-site live show standby stewards, and post-expo dismantling.
+        </p>
+<ul class="mt-6 space-y-2 text-[11px] text-stone-muted/80 font-light">
+<li>— Complete Authority Clearances</li>
+<li>— 24h Early Handover Guarantee</li>
+<li>— Dismantling &amp; Safe Storage</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- 4-STEP METHODOLOGY -->
+<section class="py-24 lg:py-32 border-b border-border-subtle bg-[#121212]" id="process">
+<div class="max-w-[1400px] mx-auto px-6 lg:px-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+<div>
+<span class="text-[10px] tracking-widest3 uppercase text-sand block mb-2">Methodology</span>
+<h2 class="font-serif text-3xl lg:text-4xl font-normal text-stone-light">
+          The 4-Stage Execution Workflow
+        </h2>
+</div>
+<p class="text-stone-muted text-xs font-light max-w-sm">
+        A rigorous architectural protocol delivering zero-snag stand handovers across major exhibition venues.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="border-l border-border-subtle pl-6 space-y-3">
+<span class="text-[11px] tracking-widest text-sand uppercase font-mono block">Stage 01</span>
+<h4 class="font-serif text-lg text-stone-light">Consultation &amp; Venue Brief</h4>
+<p class="text-xs font-light text-stone-muted leading-relaxed">
+          Analysis of booth dimensions, hall orientation, sightlines, structural regulations, and commercial targets.
+        </p>
+</div>
+<div class="border-l border-border-subtle pl-6 space-y-3">
+<span class="text-[11px] tracking-widest text-sand uppercase font-mono block">Stage 02</span>
+<h4 class="font-serif text-lg text-stone-light">3D Spatial Architecture</h4>
+<p class="text-xs font-light text-stone-muted leading-relaxed">
+          Bespoke 3D photorealistic renderings, material sample approvals, and formal Civil Defense engineering filings.
+        </p>
+</div>
+<div class="border-l border-border-subtle pl-6 space-y-3">
+<span class="text-[11px] tracking-widest text-sand uppercase font-mono block">Stage 03</span>
+<h4 class="font-serif text-lg text-stone-light">In-House Pre-Build</h4>
+<p class="text-xs font-light text-stone-muted leading-relaxed">
+          Trial dry-assembly in our workshop to test structural joints, electrical routing, and finish tolerances prior to dispatch.
+        </p>
+</div>
+<div class="border-l border-border-subtle pl-6 space-y-3">
+<span class="text-[11px] tracking-widest text-sand uppercase font-mono block">Stage 04</span>
+<h4 class="font-serif text-lg text-stone-light">On-Site Turnkey Handover</h4>
+<p class="text-xs font-light text-stone-muted leading-relaxed">
+          Delivered pristine and cleaned 24 hours prior to expo commencement, backed by standby technical personnel.
+        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- GLOBAL HUBS (Exact Business Card Data in Minimal Layout) -->
+<section class="py-24 lg:py-32 border-b border-border-subtle bg-[#141413]" id="hubs">
+<div class="max-w-[1400px] mx-auto px-6 lg:px-16">
+<div class="max-w-2xl mb-16">
+<span class="text-[10px] tracking-widest3 uppercase text-sand block mb-2">Global Operations</span>
+<h2 class="font-serif text-3xl lg:text-4xl font-normal text-stone-light">
+        Dual Hub Network: Dubai &amp; India
+      </h2>
+<p class="font-sans font-light text-stone-muted text-base mt-3 leading-relaxed">
+        Seamless Middle East exhibition management coupled with high-capacity bespoke joinery fabrication.
+      </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+<!-- Dubai Studio -->
+<div class="p-8 lg:p-12 border border-border-subtle bg-[#181817] flex flex-col justify-between">
+<div class="space-y-6">
+<div class="flex items-center justify-between border-b border-border-subtle pb-4">
+<span class="text-[10px] tracking-widest uppercase text-sand font-medium">Headquarters</span>
+<span class="text-[10px] tracking-widest uppercase text-stone-muted">Active Studio</span>
+</div>
+<h3 class="font-serif text-2xl text-stone-light font-normal">Dubai, United Arab Emirates</h3>
+<div class="space-y-2 text-xs font-light text-stone-muted leading-relaxed">
+<p><strong class="text-stone-light font-normal">Facility:</strong> Emarat Atrium Building</p>
+<p><strong class="text-stone-light font-normal">Location:</strong> Al Wasl Plot No: 1116-0, Dubai, UAE</p>
+<p><strong class="text-stone-light font-normal">Desk Email:</strong> <a class="text-stone-light underline hover:text-sand" href="mailto:bkccdubai@gmail.com">bkccdubai@gmail.com</a></p>
+</div>
+</div>
+<div class="pt-8 mt-8 border-t border-border-subtle flex flex-wrap items-center justify-between gap-4">
+<div class="text-xs">
+<span class="text-[10px] uppercase tracking-widest text-stone-muted block mb-1">Direct Lines</span>
+<span class="font-mono text-stone-light">+971 0585047305 / +971 529783732</span>
+</div>
+<a class="text-xs uppercase tracking-widest text-sand hover:text-stone-light underline" href="https://wa.me/971529783732" target="_blank">
+        WhatsApp Desk →
+      </a>
+</div>
+</div>
+<!-- India Workshop -->
+<div class="p-8 lg:p-12 border border-border-subtle bg-[#181817] flex flex-col justify-between">
+<div class="space-y-6">
+<div class="flex items-center justify-between border-b border-border-subtle pb-4">
+<span class="text-[10px] tracking-widest uppercase text-sand font-medium">Regional Production</span>
+<span class="text-[10px] tracking-widest uppercase text-stone-muted">Fabrication Unit</span>
+</div>
+<h3 class="font-serif text-2xl text-stone-light font-normal">Rajasthan, India</h3>
+<div class="space-y-2 text-xs font-light text-stone-muted leading-relaxed">
+<p><strong class="text-stone-light font-normal">Workshop:</strong> Office No. 201, Jangir Tower</p>
+<p><strong class="text-stone-light font-normal">Address:</strong> Bhojasar, Jhunjhunu (Raj.) - 333041, India</p>
+<p><strong class="text-stone-light font-normal">Capability:</strong> High-Volume Modular CNC Joinery &amp; Heavy Frameworks</p>
+</div>
+</div>
+<div class="pt-8 mt-8 border-t border-border-subtle flex flex-wrap items-center justify-between gap-4">
+<div class="text-xs">
+<span class="text-[10px] uppercase tracking-widest text-stone-muted block mb-1">Direct Office Line</span>
+<span class="font-mono text-stone-light">+91 8003959949</span>
+</div>
+<a class="text-xs uppercase tracking-widest text-sand hover:text-stone-light underline" href="tel:+918003959949">
+        Call India Office →
+      </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- REFINED CONSULTATION / INQUIRY FORM -->
+<section class="py-24 lg:py-32 border-b border-border-subtle bg-[#121212]" id="inquiry">
+<div class="max-w-[1400px] mx-auto px-6 lg:px-16">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+<!-- Left: Text & Information -->
+<div class="lg:col-span-5 space-y-6">
+<span class="text-[10px] tracking-widest3 uppercase text-sand block">Initiate a Project</span>
+<h2 class="font-serif text-3xl lg:text-4xl font-normal text-stone-light leading-tight">
+          Request a Bespoke Proposal &amp; 3D Concept
+        </h2>
+<p class="font-sans font-light text-stone-muted text-sm leading-relaxed">
+          Provide your exhibition venue, booth dimensions, and architectural requirements. Our design team will respond within 4 business hours.
+        </p>
+<div class="pt-8 border-t border-border-subtle space-y-4 text-xs font-light text-stone-muted">
+<div class="flex items-center gap-3">
+<span class="text-sand text-sm">—</span>
+<span>Turnkey fabrication, graphics, painting &amp; authority permits included</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-sand text-sm">—</span>
+<span>Full DWTC &amp; ADNEC structural compliance certification</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-sand text-sm">—</span>
+<span>Dedicated standby engineer during live show days</span>
+</div>
+</div>
+<div class="pt-6">
+<span class="text-[10px] uppercase tracking-widest text-stone-muted block mb-2">Direct Principal Inquiries</span>
+<a class="font-serif text-xl text-stone-light hover:text-sand transition-colors block" href="mailto:bkccdubai@gmail.com">bkccdubai@gmail.com</a>
+<span class="font-mono text-xs text-stone-muted mt-1 block">+971 0585047305 / +971 529783732</span>
+</div>
+</div>
+<!-- Right: Architectural Minimal Form -->
+<div class="lg:col-span-7 bg-[#161615] border border-border-subtle p-8 lg:p-12">
+<form class="space-y-6" onsubmit="event.preventDefault(); alert('Your brief has been forwarded to Prachi World Exhibition Organizing.');">
+<div>
+<label class="block text-[10px] tracking-widest uppercase text-stone-muted mb-2">Format</label>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="stand_type" type="radio" value="custom_wood"/>
+<div class="p-3 border border-border-subtle peer-checked:border-sand peer-checked:text-stone-light text-stone-muted text-center transition-colors">
+                  Custom Wood
+                </div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="stand_type" type="radio" value="double_decker"/>
+<div class="p-3 border border-border-subtle peer-checked:border-sand peer-checked:text-stone-light text-stone-muted text-center transition-colors">
+                  Double Decker
+                </div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="stand_type" type="radio" value="island_stand"/>
+<div class="p-3 border border-border-subtle peer-checked:border-sand peer-checked:text-stone-light text-stone-muted text-center transition-colors">
+                  Island Stand
+                </div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="stand_type" type="radio" value="pavilion"/>
+<div class="p-3 border border-border-subtle peer-checked:border-sand peer-checked:text-stone-light text-stone-muted text-center transition-colors">
+                  Country Pavilion
+                </div>
+</label>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-[10px] tracking-widest uppercase text-stone-muted mb-2">Footprint Area</label>
+<input class="w-full bg-[#1A1918] border border-border-subtle text-stone-light text-xs px-4 py-3 focus:border-sand focus:ring-0 focus:outline-none placeholder:text-stone-muted/50" placeholder="e.g. 54 sqm (6m x 9m)" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] tracking-widest uppercase text-stone-muted mb-2">Exhibition Name &amp; Venue</label>
+<input class="w-full bg-[#1A1918] border border-border-subtle text-stone-light text-xs px-4 py-3 focus:border-sand focus:ring-0 focus:outline-none placeholder:text-stone-muted/50" placeholder="e.g. GITEX Global / DWTC" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-[10px] tracking-widest uppercase text-stone-muted mb-2">Company / Organization</label>
+<input class="w-full bg-[#1A1918] border border-border-subtle text-stone-light text-xs px-4 py-3 focus:border-sand focus:ring-0 focus:outline-none placeholder:text-stone-muted/50" placeholder="e.g. Apex Global" required="" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] tracking-widest uppercase text-stone-muted mb-2">Corporate Email</label>
+<input class="w-full bg-[#1A1918] border border-border-subtle text-stone-light text-xs px-4 py-3 focus:border-sand focus:ring-0 focus:outline-none placeholder:text-stone-muted/50" placeholder="name@company.com" required="" type="email"/>
+</div>
+</div>
+<div>
+<label class="block text-[10px] tracking-widest uppercase text-stone-muted mb-2">WhatsApp or Mobile Hotline</label>
+<input class="w-full bg-[#1A1918] border border-border-subtle text-stone-light text-xs px-4 py-3 focus:border-sand focus:ring-0 focus:outline-none placeholder:text-stone-muted/50" placeholder="+971 50 000 0000" required="" type="tel"/>
+</div>
+<div class="pt-2">
+<button class="w-full py-4 bg-stone-light text-[#121212] text-xs uppercase tracking-widest font-medium hover:bg-champagne transition-colors duration-300" type="submit">
+              Submit Exhibition Inquiry
+            </button>
+</div>
+<p class="text-[10px] text-stone-muted text-center font-light">
+            All details are handled under strict non-disclosure. 3D concepts and spatial blueprints provided within 48 hours.
+          </p>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- RESTRAINED FOOTER -->
+<footer class="bg-[#0E0E0D] text-stone-muted py-16 lg:py-24">
+<div class="max-w-[1400px] mx-auto px-6 lg:px-16 space-y-12">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+<div class="md:col-span-6 space-y-4">
+<span class="font-serif text-2xl text-stone-light tracking-[0.2em] uppercase font-normal block">
+          PRACHI WORLD
+        </span>
+<p class="font-sans font-light text-xs text-stone-muted max-w-md leading-relaxed">
+          Exhibition organizing, turnkey pavilion fabrication, and bespoke spatial architecture. Serving Dubai, Abu Dhabi, Saudi Arabia, and international exhibitions.
+        </p>
+<div class="text-[11px] font-light space-y-1 text-stone-muted pt-2">
+<p>Dubai HQ: Emarat Atrium, Al Wasl Plot No. 1116-0, Dubai, UAE</p>
+<p>India Atelier: Jangir Tower, Bhojasar, Jhunjhunu (Raj.) - 333041, India</p>
+</div>
+</div>
+<div class="md:col-span-3 space-y-3">
+<span class="text-[10px] tracking-widest uppercase text-stone-light block">Directory</span>
+<ul class="space-y-2 text-xs font-light">
+<li><a class="hover:text-stone-light transition-colors" href="#work">Selected Works</a></li>
+<li><a class="hover:text-stone-light transition-colors" href="#capabilities">Atelier Capabilities</a></li>
+<li><a class="hover:text-stone-light transition-colors" href="#process">4-Stage Process</a></li>
+<li><a class="hover:text-stone-light transition-colors" href="#hubs">Dubai &amp; India Hubs</a></li>
+<li><a class="hover:text-stone-light transition-colors" href="#inquiry">Request Consultation</a></li>
+</ul>
+</div>
+<div class="md:col-span-3 space-y-3">
+<span class="text-[10px] tracking-widest uppercase text-stone-light block">Direct Contact</span>
+<div class="space-y-2 text-xs font-light">
+<p><a class="text-stone-light hover:text-sand" href="mailto:bkccdubai@gmail.com">bkccdubai@gmail.com</a></p>
+<p class="font-mono">+971 0585047305</p>
+<p class="font-mono">+971 529783732</p>
+<p class="font-mono">+91 8003959949</p>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-border-subtle flex flex-col sm:flex-row items-center justify-between text-[11px] font-light gap-4">
+<p>© 2025 Prachi World Exhibition Organizing LLC. All rights reserved.</p>
+<p class="text-stone-muted/70">Dubai • Abu Dhabi • Riyadh • India</p>
+</div>
+</div>
+</footer>
+<!-- MINIMAL WHATSAPP CONCIERGE BUTTON -->
+<a class="fixed bottom-6 right-6 z-50 bg-[#1A1918] border border-border-subtle hover:border-sand text-stone-light px-4 py-2.5 shadow-xl text-xs uppercase tracking-widest transition-all duration-300 flex items-center gap-2.5" href="https://wa.me/971529783732" target="_blank">
+<span class="w-2 h-2 rounded-full bg-sand"></span>
+<span class="text-[11px] font-medium">WhatsApp Concierge</span>
+</a>
+</body></html>
